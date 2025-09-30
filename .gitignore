@@ -1,0 +1,24 @@
+node_modules/
+dist/
+build/
+.vite/
+.DS_Store
+*.log
+# (이미 올릴 이미지가 아주 크면 LFS 쓰기 전엔 임시로 주석 해제해서 제외 가능)
+# public/images/*
+node_modules/
+public/images/raw/
+*.psd
+*.psb
+*.tif
+*.mov
+*.mp4
+*.zip
+*.7z
+*.dmg
+*.iso
+# large originals keep out of Git
+public/images/originals/
+*.psd
+*.tif
+*.heic

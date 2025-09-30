@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Lavender gradient helper - 배경 */
+.bg-lavender {
+  background: linear-gradient(180deg, #f6f5ff 0%, #efeaff 55%, #e6ddff 100%);
+}
+
+/* 버튼/뱃지 등에 쓰면 좋은 연보라 포인트 */
+.pill {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm bg-purple-100 text-purple-700;
+}
+/* Lavender gradient */
+.bg-lavender {
+  background: linear-gradient(180deg, #f6f5ff 0%, #efeaff 55%, #e6ddff 100%);
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
