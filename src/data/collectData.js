@@ -76,9 +76,9 @@ const COLLECT_DATA = [
     note: "이 작품은 바다의 빛과 파도를 기억하며 작업한 시리즈 중 하나입니다.",
   },
 
-  {
+   {
     id: "artwork-5",
-    title: "이방인과 여행자4",
+    title: "이방인과 여행자1",
     artist: "Lee Haa",
     year: 2025,
     material: "Acrylic on Canvas",
@@ -95,9 +95,9 @@ const COLLECT_DATA = [
     note: "이방인과 여행자 시리즈의 신작입니다.",
   },
 
-    {
+  {
     id: "artwork-6",
-    title: "이방인과 여행자1",
+    title: "이방인과 여행자4",
     artist: "Lee Haa",
     year: 2025,
     material: "Acrylic on Canvas",
@@ -113,6 +113,8 @@ const COLLECT_DATA = [
     ],
     note: "이방인과 여행자 시리즈의 신작입니다.",
   },
+
+   
   // ... 나머지 항목들도 필요 시 photos 배열만 추가
 ];
 
