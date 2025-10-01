@@ -97,19 +97,19 @@ const COLLECT_DATA = [
 
     {
     id: "artwork-6",
-    title: "이방인과 여행자4",
+    title: "이방인과 여행자1",
     artist: "Lee Haa",
     year: 2025,
     material: "Acrylic on Canvas",
     size: "00 x 00 cm (액자포함)",
     price: "판매완료",
-    image: "/images/collect/artwork5.jpg",
+    image: "/images/collect/artwork6.jpg",
     // ▼ 상세 사진들(표지 포함해도 되고 안해도 됩니다)
     photos: [
-      "/images/collect/artwork5.jpg",
-      "/images/collect/artwork5_detail1.jpg",
-      "/images/collect/artwork5_detail2.jpg",
-      "/images/collect/artwork5_detail3.jpg",
+      "/images/collect/artwork6.jpg",
+      "/images/collect/artwork6_detail1.jpg",
+      "/images/collect/artwork6_detail2.jpg",
+      "/images/collect/artwork6_detail3.jpg",
     ],
     note: "이방인과 여행자 시리즈의 신작입니다.",
   },
