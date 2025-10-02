@@ -10,33 +10,17 @@ const active = "text-ink font-semibold";
 // 내비 구조(필요 시 하위 항목 추가/수정 가능)
 const NAV = [
   {
-    label: "Exhibition",
-    to: "/exhibition",
-    children: [
-      { label: "Current", to: "/exhibition#current" },
-      { label: "Upcoming", to: "/exhibition#upcoming" },
-      { label: "Past", to: "/exhibition#past" },
-    ],
+    label: "Exhibition",to: "/exhibition",
   },
   {
-    label: "Artist",
-    to: "/artist",
-    children: [
-      { label: "Roster", to: "/artist#roster" },
-      { label: "Apply", to: "/artist#apply" },
-    ],
+    label: "Artist", to: "/artist",
   },
   {
-    label: "Information",
-    to: "/information",
-    children: [
-      { label: "대관 안내", to: "/information#rent" },
-      { label: "그룹전 안내", to: "/information#group" },
-      { label: "Visit Us", to: "/information#visit" },
-    ],
+    label: "Information", to: "/information",
   },
   { label: "About", to: "/about" },
 ];
+
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
